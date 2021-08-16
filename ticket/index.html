@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Ticket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+<h1>Book Ticket</h1>
+        <form action="">
+
+            First Name: <input type="text"> <br> <br>
+            Last Name: <input type="text"><br> <br>
+            <label>From:
+                <input list="from" name="fromwhere" / placeholder="From"></label>
+                <datalist id="from">
+                  <option value="Kingston"></option>
+                  <option value="Portmore"></option>
+                  <option value="Clarendon"></option>
+                  <option value="Portland"></option>
+                  
+                </datalist> <br><br>
+Date: <input type="date">
+<br><br>
+<label>To:
+    <input list="to" name="towhere" / placeholder="to"></label>
+    <datalist id="to">
+      <option value="Kingston"></option>
+      <option value="Portmore"></option>
+      <option value="Clarendon"></option>
+      <option value="Portland"></option>
+      
+    </datalist>
+<br>
+<br>
+<label>Class:
+    <input list="class" name="myclass" / placeholder="Class"></label>
+    <datalist id="class">
+      <option value="First Class"></option>
+      <option value="Business Class"></option>
+      <option value="Prenium Economy"></option>
+      <option value="Economy Class"></option>
+      
+    </datalist>
+    <br><br>
+
+    <button>search</button>
+        </form>
+    </div>
+</body>
+</html>
